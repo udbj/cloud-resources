@@ -1,0 +1,13 @@
+- name: Network Getting Started First Playbook
+  hosts: all
+  tasks:
+
+  - name: Create File
+    command: touch ANSIBLE
+  
+  - name: List Files
+    command: ls
+    register: files_list
+    
+  - debug: var=files_list.stdout_lines
+
