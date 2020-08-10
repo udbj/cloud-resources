@@ -19,5 +19,5 @@ docker login
 # logout from docker account
 docker logout
 
-
-
+# copy folder to container
+docker run -ti -v /Users/dave/Desktop/folder:/usr/src/data coady/pylucene bash
