@@ -19,5 +19,11 @@ docker login
 # logout from docker account
 docker logout
 
-# copy folder to container
+# mount folder to container
 docker run -ti -v /Users/dave/Desktop/folder:/usr/src/data coady/pylucene bash
+
+# copy file from desktop to running container
+docker cp /Users/dave/Desktop/file da2f:/usr/bin/file
+
+# copy file from running container to desktop
+docker cp da2f:/usr/bin/file /Users/dave/Desktop/file
