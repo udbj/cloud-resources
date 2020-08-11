@@ -33,3 +33,6 @@ docker images
 
 # remove an image
 docker image rm 43a8
+
+# stop container 
+docker stop 43a8
