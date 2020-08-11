@@ -32,4 +32,4 @@ docker cp da2f:/usr/bin/file /Users/dave/Desktop/file
 docker images
 
 # remove an image
-docker rm 43a8
+docker image rm 43a8
