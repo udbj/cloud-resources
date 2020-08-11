@@ -27,3 +27,9 @@ docker cp /Users/dave/Desktop/file da2f:/usr/bin/file
 
 # copy file from running container to desktop
 docker cp da2f:/usr/bin/file /Users/dave/Desktop/file
+
+# see downloaded images
+docker images
+
+# remove an image
+docker rm 43a8
