@@ -46,4 +46,4 @@
 dave@daves-mbp
 
 [testserver:vars]
-ansible_password = jackass 
+ansible_password = password 
