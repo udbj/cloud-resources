@@ -36,3 +36,6 @@ docker image rm 43a8
 
 # stop container 
 docker stop 43a8
+
+# run command (shell) on running container 
+docker exec -it af6b /bin/bash
