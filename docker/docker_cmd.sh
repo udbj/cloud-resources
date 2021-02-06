@@ -5,7 +5,7 @@ docker pull ubuntu
 docker run ubuntu
 
 # run interactive shell for an image
-docker run -it ubuntu
+docker run -it coady/pylucene bash
 
 # list all images in workspace
 docker ps --all
